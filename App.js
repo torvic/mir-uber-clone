@@ -9,13 +9,12 @@
 import React from 'react';
 // import type {Node} from 'react';
 import {StatusBar, Text} from 'react-native';
-import HomeScreen from './src/screens/HomeScreen';
-
+import DestinationSearchScreen from './src/screens/DestinationSearchScreen';
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <HomeScreen />
+      <DestinationSearchScreen />
     </>
   );
 };
